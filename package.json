@@ -1,9 +1,12 @@
 {
+  "homepage": "https://mohdsaad17.github.io/3D-Portfolio/",
   "name": "3d-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -13,6 +16,7 @@
     "@react-three/drei": "^9.57.3",
     "@react-three/fiber": "^8.12.0",
     "framer-motion": "^10.6.0",
+    "gh-pages": "^5.0.0",
     "maath": "^0.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
