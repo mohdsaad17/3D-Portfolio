@@ -182,7 +182,7 @@ import {
     {
       name: "3D Portfolio",
       description:
-        ",I wanted to showcase my skills and experience in an interactive and engaging way. That's why I created my own 3D portfolio using React and Three.js.",
+        "I wanted to showcase my skills and experience in an interactive and engaging way. That's why I created my own 3D portfolio using React and Three.js.",
       tags: [
         {
           name: "react",
