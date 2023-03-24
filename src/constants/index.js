@@ -180,9 +180,9 @@ import {
   
   const projects = [
     {
-      name: "3d Portfolio",
+      name: "3D Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        ",I wanted to showcase my skills and experience in an interactive and engaging way. That's why I created my own 3D portfolio using React and Three.js.",
       tags: [
         {
           name: "react",
