@@ -20,9 +20,16 @@ import {
     tesla,
     shopify,
     carrent,
+    pimage,
     jobit,
     tripguide,
     threejs,
+    freelance,
+    anuta,
+    iitp,
+    saraportrait,
+    prakharportrait,
+
   } from "../assets";
   
   export const navLinks = [
@@ -110,89 +117,70 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Professional Freelancer",
+      company_name: "Various Clients",
+      icon:freelance,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "My core expertise lies in developing and maintaining web applications using Angular, React.js, and other related technologies.",
+        " I take pride in collaborating closely with cross-functional teams that include designers, product managers, and other developers to create high-quality products that meet the needs of users.",
+        "As a web developer, I also prioritize implementing responsive design and ensuring cross-browser compatibility, to ensure that users have a seamless experience across all devices and platforms.",
+        " I actively participate in code reviews, providing constructive feedback to other developers, and always looking for opportunities to enhance the quality of the codebase. Overall, my focus is on delivering scalable and user-friendly solutions that exceed expectations and drive business value.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Angular Developer",
+      company_name: "Anuta Networks",
+      icon: anuta,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2021 - March 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "UI Developer-Designed and implemented user interfaces using HTML, CSS, and JavaScript framework Angular.",
+        "Collaborated with UX designers, back-end developers to understand and implement product requirements.",
+        "Lead the development of individual components and ensure their quality and reliability.",
+        "Wrote and maintained end-to-end tests using testing framework Protractor."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Teaching Assistant",
+      company_name: "IIT Patna",
+      icon: iitp,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2019 - June 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "As a lecturer at IIT Patna, I had the opportunity to teach advanced C++ to undergraduate students.",
+        "I not only gave them challenging assignments to improve their skills but also evaluated their work based on correctness and efficiency.",
+        "In addition to assignments, I conducted end-semester lab examinations to gauge their understanding and ability to apply the concepts they had learned.",
+        "It was a fulfilling experience to work with such bright and motivated students, and I enjoyed helping them develop their C++ programming skills."
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "At first, I was skeptical that we could create a website that would do justice to the beauty of our product. However, Saad's outstanding web development skills proved me wrong.",
+      name: "Sara Fatima",
+      designation: "Assistant Researcher",
+      company: "University of Limerick",
+      image: saraportrait,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I had the pleasure of working with him at Anuta Networks, and I can attest to his exceptional skills. Together, we collaborated on various components of ATOM, and his expertise in web development was truly impressive.",
+      name: "Prakhar Khare",
+      designation: "Staff Engineer",
+      company: "Nagarro",
+      image: prakharportrait,
     },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "3d Portfolio",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -201,7 +189,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "threejs",
           color: "green-text-gradient",
         },
         {
@@ -209,8 +197,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: pimage,
+      source_code_link: "https://github.com/mohdsaad17/3D-Portfolio",
     },
     {
       name: "Job IT",
@@ -233,27 +221,7 @@ import {
       image: jobit,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

@@ -46,8 +46,15 @@ const About = () => {
       variants = {fadeIn("","",0.1,1)}
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] '
       >
-        I am a skilled Software Engineer
-      </motion.p>
+        I am a highly skilled software developer with extensive experience in TypeScript and JavaScript.
+         I have expertise in utilizing various frameworks, such as Angular, React, and Three.js,
+          to create efficient and scalable web solutions that solve real-world problems.
+           As a quick learner, I am always eager to stay up-to-date with the latest technologies
+            and best practices to ensure the highest level of quality in my work.
+             I enjoy collaborating closely with clients to understand their needs and bring their ideas to life,
+              creating user-friendly solutions that exceed their expectations.
+               Let's work together to create innovative and impactful web applications that make a difference in the world.
+        </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service,index) => (
           <ServiceCard key = {service.title} index = {index} {...service} />

@@ -24,11 +24,18 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import freelance from "./company/freelance.png";
 import tesla from "./company/tesla.png";
+import anuta from "./company/anuta.png";
+import iitp from "./company/iitp.png";
+
 
 import carrent from "./carrent.png";
+import pimage from "./pimage.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import saraportrait from "./saraportrait.jpg";
+import prakharportrait from "./prakharportrait.jpg";
 
 export {
   logo,
@@ -59,4 +66,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  freelance,
+  anuta,
+  iitp,
+  pimage,
+  saraportrait,
+  prakharportrait,
 };
